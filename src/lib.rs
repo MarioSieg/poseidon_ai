@@ -1,4 +1,5 @@
 mod activations;
+mod blas;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
