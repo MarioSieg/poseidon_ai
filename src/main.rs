@@ -26,7 +26,7 @@ fn main() {
 	println!("{:?}", network.feed_forward(vec![1.0, 0.0]));
 	println!("{:?}", network.feed_forward(vec![1.0, 1.0]));
 
-	network.train(inputs, targets, 0xffff);
+	network.train(inputs, targets, 100);
 
 	println!("{:?}", network.feed_forward(vec![0.0, 0.0]));
 	println!("{:?}", network.feed_forward(vec![0.0, 1.0]));
